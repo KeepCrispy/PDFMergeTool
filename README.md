@@ -12,6 +12,7 @@ requirements:
 To customize for the files you want to combine just change the file names in following lines:
 
 coverpages = PdfReader'file1.pdf').pages
+
 mainpages = PdfReader('file2.pdf').pages
 
 Cheers

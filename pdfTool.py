@@ -27,4 +27,4 @@ for page in mergedpages:
     output.addpage(newpage.render())
 
 
-output.write(directoryName +'Combined.pdf' )
+output.write('Combined.pdf' )
